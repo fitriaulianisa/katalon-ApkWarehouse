@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 // --- START TEST CASE ---
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://services.pusri.dev/sso/login?redirect_to=aHR0cHM6Ly93YXJlaG91c2UucHVzcmkuZGV2L2Rhc2hib2FyZC9sb2dpbmNlay5waHA=')
 
 // Klik field username

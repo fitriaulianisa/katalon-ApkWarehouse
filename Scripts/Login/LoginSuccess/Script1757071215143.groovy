@@ -19,14 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://services.pusri.dev/sso/login?redirect_to=aHR0cHM6Ly93YXJlaG91c2UucHVzcmkuZGV2L2Rhc2hib2FyZC9sb2dpbmNlay5waHA=')
 
-WebUI.setText(findTestObject('Object Repository/valid/Page_SSO - Pupuk Sriwidjaja Palembang/input_Username_form-control'), '2401320001')
+WebUI.setText(findTestObject('Object Repository/valid/Page_SSO - Pupuk Sriwidjaja Palembang/input_Username_form-control'), 
+    '2401320001')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/valid/Page_SSO - Pupuk Sriwidjaja Palembang/input_Password_form-control'), 'Sx4i0DcUYKjTtKZLXv+mJA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/valid/Page_SSO - Pupuk Sriwidjaja Palembang/input_Password_form-control'), 
+    'Sx4i0DcUYKjTtKZLXv+mJA==')
 
 WebUI.click(findTestObject('Object Repository/valid/Page_SSO - Pupuk Sriwidjaja Palembang/button_Password_btn btn-primary w-100 mb-4 _39f754'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/valid/Page_Warehouse Pusri/teks_SelamatDatang'), 10)
 
 WebUI.closeBrowser()
+

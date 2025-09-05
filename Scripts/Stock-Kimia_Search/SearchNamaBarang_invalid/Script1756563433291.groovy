@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://services.pusri.dev/sso/login?redirect_to=aHR0cHM6Ly93YXJlaG91c2UucHVzcmkuZGV2L2Rhc2hib2FyZC9sb2dpbmNlay5waHA=')
 
@@ -41,6 +39,8 @@ WebUI.click(findTestObject('Object Repository/Stock-kimia_Search/Page_Warehouse 
 
 WebUI.setText(findTestObject('Object Repository/Stock-kimia_Search/Page_Warehouse Pusri/input_Permintaan_searchInput'), 
     'tes')
+
+WebUI.verifyElementPresent(findTestObject('Stock-kimia_Search/Page_Warehouse Pusri/div_Catatan_dom-jqry_paginate'), 5)
 
 WebUI.closeBrowser()
 
