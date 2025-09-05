@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Sign In_ti ti-lock fs-4 me-2</name>
+   <tag></tag>
+   <elementGuidId>d587d1d3-fec9-424f-9953-7589925cf375</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/div/div/div[2]/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ti.ti-lock.fs-4.me-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Sign In&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>52044c1d-5cd2-4890-a028-f406775e1d0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ti ti-lock fs-4 me-2</value>
+      <webElementGuid>6e198888-0c25-4594-b397-c57cfbeefc45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;position-relative overflow-hidden radial-gradient min-vh-100 w-100&quot;]/div[@class=&quot;position-relative z-index-5 bg-white&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-5 col-xxl-4&quot;]/div[@class=&quot;authentication-login min-vh-100 bg-body row justify-content-center align-items-center p-4&quot;]/div[@class=&quot;col-sm-8 col-md-6 col-xl-9&quot;]/button[@class=&quot;btn btn-primary w-100 mb-4 rounded-2 d-flex align-items-center justify-content-center&quot;]/i[@class=&quot;ti ti-lock fs-4 me-2&quot;]</value>
+      <webElementGuid>6c4abfdb-5329-4c38-b56b-2af02b85e80c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div/div/div[2]/div/div/button/i</value>
+      <webElementGuid>2df9322a-bd52-48f9-80de-1ee1028990f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/i</value>
+      <webElementGuid>ad0e8faf-5834-461a-816d-545f43f40c08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

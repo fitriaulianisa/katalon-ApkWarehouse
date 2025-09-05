@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username invalid dan password valid</description>
+   <name>Username_invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82ab6dfb-fed9-4b86-a8fb-5b85c5b15417</testCaseGuid>
+</TestCaseEntity>

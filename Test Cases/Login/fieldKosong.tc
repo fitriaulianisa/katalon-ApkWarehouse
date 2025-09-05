@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username valid dan password invalid</description>
+   <name>fieldKosong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddc3200e-da75-405b-87c3-1c21d8cb40dc</testCaseGuid>
+</TestCaseEntity>
